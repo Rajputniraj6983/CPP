@@ -65,14 +65,14 @@ int main()
 		cout << " enter std detail "<< endl;
 		for(int i=0;i<5;i++)
 		{
-			std[i].setter(i+1);
+			s1[i].setter();
 			
 		}
 		
 		cout << " enter std detail "<< endl;
 		for(int i=0;i<5;i++)
 		{
-			std[i].getter(i+1);
+			s1[i].getter();
 			
 		}
 		return 0;
